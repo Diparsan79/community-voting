@@ -1,0 +1,7 @@
+body { background-color: #f8f9fa; }
+.issue-card .vote-box { width: 56px; }
+.issue-card .vote-btn { display: block; width: 100%; border: 0; background: transparent; cursor: pointer; }
+.issue-card .vote-count { font-weight: 700; }
+.comment { border-bottom: 1px solid #eee; padding: 10px 0; }
+.comment .meta { color: #666; font-size: 0.9rem; }
+.comment .text { white-space: pre-wrap; }

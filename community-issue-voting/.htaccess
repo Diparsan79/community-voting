@@ -1,0 +1,9 @@
+# If using Apache, route missing files to index.php when necessary
+Options -Indexes
+<IfModule mod_rewrite.c>
+RewriteEngine On
+# Allow existing files/directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]
+</IfModule>
